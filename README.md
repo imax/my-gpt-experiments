@@ -1,14 +1,14 @@
-Read entries from Apple Journal app and combines them into a single .html file for easier analysis. 
+Read entries from Apple Journal app and combines them into a single .html file. 
 
-Bonus point: strips all the extra formatting and images.
+It also strips all the extra formatting and images. 
 
-How to use it:
+To use the script export your Apple Journal entries from the phone first and unzip them-the script is looking for Entries folder with  *.html files.
 
-1. Export your Apple Journal entries and then unzip it-you should have an Entries folder with  *.html files.
-
-2. Install uv- 
-https://github.com/astral-sh/uv 
-
-3. Run
+Running the script is trivial:
 
 `uv run index.py`
+
+It will save the results into index.html.
+
+If you don't have uv install it from here:
+https://github.com/astral-sh/uv 

@@ -6,6 +6,12 @@
 # ]
 # ///
 
+"""
+Parses Netflix viewership data (.csv)
+
+You can download it from the Account page on Netflix.com.
+"""
+
 from rich.console import Console
 from rich.table import Table
 import pandas as pd

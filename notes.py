@@ -7,6 +7,11 @@
 # 
 # Install uv:
 # https://github.com/astral-sh/uv 
+"""
+Combines certain Notes pages into single .html.
+
+A helper script to feed data into chatGPT for further analysis.
+"""
 
 from appscript import app
 
